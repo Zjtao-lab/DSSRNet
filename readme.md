@@ -25,10 +25,7 @@ python setup.py develop --no_cuda_ext
     -opt options/train/NAFSSR/NAFSSR-S_x2.yml --launcher pytorch \
     > outprint_simpleffb_v0.4.txt 2>&1 &
     ```
-    * ```--input_l_path```: the path of the degraded left image
-    * ```--input_r_path```: the path of the degraded right image
-    * ```--output_l_path```: the path to save the predicted left image
-    * ```--output_r_path```: the path to save the predicted right image
+
 
 
 ### Results and Pre-trained Models

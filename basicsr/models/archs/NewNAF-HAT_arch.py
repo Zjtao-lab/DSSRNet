@@ -385,7 +385,7 @@ class NAF_SimpleFFCNet_withHAT_downIN_withCSAM_SR(nn.Module):
         super().__init__()
         self.dual = dual    # dual input for stereo SR (left view, right view)
 
-        self.csam_channels = 3
+        self.csam_channels = width
 
         self.pixelunshuffle = nn.PixelUnshuffle(downscale_factor=2)
         self.newintro = nn.Conv2d(in_channels=img_channel*2*2, out_channels=width-self.csam_channels*4, kernel_size=3, padding=1, stride=1, groups=1,
