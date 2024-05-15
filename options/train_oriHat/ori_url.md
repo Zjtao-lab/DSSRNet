@@ -1,1 +1,0 @@
-https://github.com/megvii-research/NAFNet/blob/main/options/train/NAFSSR/NAFSSR-T_x4.yml

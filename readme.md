@@ -28,6 +28,6 @@ python setup.py develop --no_cuda_ext
 
 
 
-### Results and Pre-trained Models
+### Results
 
-Will be uploaded later
+We share the quantitative and qualitative results achieved by our iPASSR on all the test sets for both 2xSR and 4xSR. Then, researchers can compare their algorithms to our method without performing inference. Results are available at [Baidu Drive](https://pan.baidu.com/s/1P8a9nlIfn6FeqQq8Qx4jZw?pwd=2024) (Key: 2024).
